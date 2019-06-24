@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">祥付宝商户端</string>
+    <string name="share">分享</string>
+    <string name="share_title">分享到</string>
+    <string name="moments">朋友圈</string>
+    <string name="wechat">微信好友</string>
+    <string name="weibo">新浪微博</string>
+    <string name="qq">QQ好友</string>
+
+
+    <string name="net_error">网络访问错误，请稍后再试</string>
+    <string name="empty">还没有数据哦</string>
+    <string name="loading">请稍后</string>
+    <string name="reload">重新尝试</string>
+    <string name="no_net">网络不可用,请检查你的网络</string>
+
+
+    <string name="register">注册</string>
+    <string name="phone86">+86</string>
+    <string name="import_phone">请输入手机号</string>
+    <string name="import_verification">请输入短信验证码</string>
+    <string name="get_code">获取验证码</string>
+    <string name="next_step">下一步</string>
+    <string name="contract1">继续表示您同意</string>
+    <string name="contract2">《祥付宝支付服务协议》</string>
+
+    <string name="login">登录</string>
+    <string name="password">请输入登录密码</string>
+    <string name="forget_password">忘记密码</string>
+
+    <string name="set_login_pd">设置密码登录</string>
+    <string name="pd_require">6到12个字符，含字母、数字、符号至少两种"</string>
+
+    <string name="set_new_login_pd">设置新登录密码</string>
+    <string name="new_pd">新密码</string>
+    <string name="affirm_new_pd">确认新密码</string>
+    <string name="import_new_pd">请输入新登录密码</string>
+    <string name="affirm_import_new_pd">再次请输入新登录密码</string>
+    <string name="reset_pd">确定重置密码</string>
+
+    <string name="sms_verification">验证短信</string>
+    <string name="send_phone">已发送验证码到原手机</string>
+    <string name="find_payment">通过手机找回支付密码。支付密码用于支付以及提现操作，支付密码需与登录密码不一致。</string>
+
+    <string name="about_v">祥付宝 V3.0.0</string>
+    <string name="update">更新版本</string>
+    <string name="grade">去评分</string>
+    <string name="service">服务协议</string>
+
+    <string name="home">首页</string>
+    <string name="rq_code2">收款码</string>
+    <string name="rq_code1">收款</string>
+    <string name="statement">报表</string>
+    <string name="pay_success">您有一笔19.99元的收款成功。</string>
+    <string name="collection_time">10分钟前</string>
+    <string name="data">今日数据</string>
+    <string name="cash_summary">资金汇总 一目了然</string>
+    <string name="receivable">收款金额（元）</string>
+    <string name="money">5800.00</string>
+    <string name="transaction">交易笔数（笔）</string>
+
+
+    <string name="complete_pay">请顾客使用APP或者支付宝微信扫描以上二维码完成付款</string>
+    <string name="save_image">保存图片</string>
+    <string name="collection_record">北京祥付科技有限公司</string>
+
+    <string name="single_day">单日最高（元）</string>
+    <string name="seven_income">7天收入（元）</string>
+    <string name="ninety_income">90天收入（元）</string>
+    <string name="thirty_income">30天收入（元）</string>
+    <string name="average_daily">日均（元）</string>
+    <string name="seven_before">较之前7天</string>
+    <string name="ninety_before">较之前90天</string>
+    <string name="thirty_before">较之前30天</string>
+
+    <string name="seven_order">7天订单量（笔）</string>
+    <string name="thirty_order">30天订单量（笔）</string>
+    <string name="ninety_order">90天订单量（笔）</string>
+
+    <string name="coupon_total">优惠券总数（张）</string>
+    <string name="already_received">已领取（张）</string>
+    <string name="verification">已核销（张）</string>
+
+
+    <string name="today_water">今日流水</string>
+    <string name="income">收入</string>
+    <string name="stroke_count">笔数</string>
+    <string name="pey_gathering">支付宝收款</string>
+
+
+    <string name="runningdetails">流水详情</string>
+    <string name="trasaction_id">交易单号:</string>
+    <string name="pattern_of_payment">支付方式:</string>
+    <string name="time_of_payment">支付时间:</string>
+    <string name="order_source">订单来源:</string>
+    <string name="remark">备注:</string>
+    <string name="refund">退款</string>
+
+    <string name="refund_success">退款成功</string>
+    <string name="refund_amount">退款金额</string>
+    <string name="refund_way">退款方式</string>
+    <string name="prepaid_phone_time">充值时间</string>
+    <string name="complete">完成</string>
+
+    <string name="my_collection_code">我的收款码</string>
+    <string name="print_offline_collection">打印线下收款</string>
+    <string name="finance">我要融资</string>
+    <string name="Safe_and_fast_application">安全快速申请</string>
+    <string name="recharge_record">用户充值记录</string>
+    <string name="records_of_financing">融资记录</string>
+    <string name="account_security">账户安全</string>
+    <string name="Share_friends">分享给好友</string>
+    <string name="about">关于</string>
+
+
+    <string name="user_recharge_record">用户充值记录"</string>
+    <string name="aggregate_amount">总金额"</string>
+
+    <string name="message">消息"</string>
+    <string name="system_notice">系统公告"</string>
+    <string name="trading_push">交易推送"</string>
+
+    <!--    <string name="share">扫一扫，立即体验祥付宝"</string>-->
+
+
+    <string name="merchants">商户申请"</string>
+    <string name="you">您是？"</string>
+    <string name="individual">个体工商户"</string>
+    <string name="enterprise">企业商户"</string>
+    <string name="distinction">商户分为个体工商户和企业商户，商户类别不同，需提交的资料不同，开通的功能额度以及借款额度不同，请您如实填写！查看""</string>
+    <string name="datum">提交商户资料，成为商户，开展更多业务！"</string>
+
+    <string name="merchants_name">商户名称"</string>
+    <string name="please_merchant">请输入商家名称"</string>
+    <string name="please_principal">请输入负责人"</string>
+    <string name="principal">负责人"</string>
+    <string name="contact_number">联系电话"</string>
+    <string name="please_contact_number">请输入联系电话"</string>
+    <string name="cate">美食"</string>
+
+
+    <!--个体商户资质-->
+    <string name="business_license">营业执照注册号"</string>
+    <string name="please_business_license">请输入营业执照注册号"</string>
+    <string name="upload_business_license">请上传营业执照正面照"</string>
+    <string name="refer_to_the_sample">查看参考样例"</string>
+    <string name="legal_person">法人姓名"</string>
+    <string name="legal_id_number">法人身份证号"</string>
+    <string name="please_id_number">请输入身份证号"</string>
+    <string name="front_id_card">请上传法人手持身份证正面照片"</string>
+    <string name="identity_card">请上传法人手持身份证背面照片"</string>
+
+    <!--企业资质-->
+    <string name="institution_code">统一社会机构代码"</string>
+    <string name="please_institution_code">请输入统一社会机构代码"</string>
+    <string name="registration_certificate">请上传工商营业执照、组织机构代码证和税务登记证"</string>
+    <string name="certificate">（如果是三证合一，仅上传一个即可）"</string>
+
+    <!--银行卡信息-->
+    <string name="account_type">银行账户类型"</string>
+    <string name="account_holder">开户人"</string>
+    <string name="please_account_holder">请输入开户人"</string>
+    <string name="deposit_bank">开户银行"</string>
+    <string name="please_deposit_bank">请选择开户银行"</string>
+    <string name="account_opening_branch">开户支行"</string>
+    <string name="please_account_opening_branch">请填写开户支行名称"</string>
+    <string name="bank_account">银行账号"</string>
+    <string name="please_bank_account">请填写开户银行账号"</string>
+
+
+    <!--上传门店照片-->
+    <string name="door_head_photo">请上传门头照片（至少上传一张清晰照）"</string>
+    <string name="the_store_photos">请上传店内景照片（请上传两张清晰照）"</string>
+
+    <!--个体商户申请提交-->
+    <string name="submit_applications">您的申请已经提交！"</string>
+    <string name="audit">祥付宝的工作人员会在3个工作日内进行审核，请您耐心等待！"</string>
+
+    <!--商户申请提交-->
+    <string name="under_review">"您的商户申请正在审核中！"</string>
+    <string name="merchant_name">"商户名称："</string>
+    <string name="filing_date">"申请日期："</string>
+
+    <!--商户申请失败-->
+    <string name="merchant_not_approved">"商户申请未通过！"</string>
+    <string name="be_defeated">"失败原因如下："</string>
+    <string name="vague">"营业执照照片太过模糊："</string>
+    <string name="not_pass">"您的商户申请未通过，您可以修改之后重新提交商户认证信息。感谢您的配合！"</string>
+    <string name="reapply">"重新申请商户："</string>
+
+
+    <!--加载进度条-->
+    <string name="lode">"加载中···"</string>
+    <string name="loginlode">"登录中···"</string>
+
+    <string name="msg_camera_framework_bug">相机被占用或没有相机权限，请检查</string>
+    <string name="button_ok">退出</string>
+    <string name="viewfinderview_status_text1">将二维码/条码放入取景框内</string>
+    <string name="viewfinderview_status_text2">即可自动扫描</string>
+
+    <!--上拉加载下拉刷新-->
+    <string name="pull_down_refresh_label">下拉可以刷新</string>
+    <string name="pull_down_release_label">松开立即刷新</string>
+    <string name="pull_down_refreshing_label">正在刷新数据 ···</string>
+    <string name="pull_up_load_label">上拉加载</string>
+    <string name="pull_up_loading_label">正在加载数据 ···</string>
+
+</resources>

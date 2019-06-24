@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/layout_toolbar" />
+
+
+    <com.foorich.auscashier.view.FlexibleScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_40"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_26"
+                android:layout_marginTop="@dimen/qb_px_20"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请上传门头照片（至少一张清晰照）"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_20"
+                android:layout_marginTop="@dimen/qb_px_15"
+                android:background="@color/button" />
+
+            <RelativeLayout
+                android:id="@+id/re_license_img"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_150"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_26"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_license_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/qb_px_150"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@color/button"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:id="@+id/img_license_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/shkt_pz" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_20"
+                android:layout_marginTop="@dimen/qb_px_15"
+                android:background="@color/button" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_40"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_26"
+                android:layout_marginTop="@dimen/qb_px_20"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请上传店内景照片（请上传两张清晰照）"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/re_shop_price"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_150"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_26"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_shop_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/qb_px_150"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@color/button"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:id="@+id/img_shop_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/shkt_pz" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_20"
+                android:layout_marginTop="@dimen/qb_px_15"
+                android:background="@color/button" />
+
+
+            <Button
+                android:id="@+id/btn_stores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qb_px_40"
+                android:background="@mipmap/button1"
+                android:gravity="center"
+                android:text="下一步"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_size" />
+
+
+        </LinearLayout>
+    </com.foorich.auscashier.view.FlexibleScrollView>
+</LinearLayout>

@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <com.foorich.auscashier.view.FlexibleScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".ui.activity.PaidActivity">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qb_px_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="设置"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/titleTop_size"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+       <!--     <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_40"
+                android:background="@color/button"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:gravity="bottom"
+                    android:text="账户安全"
+                    android:textSize="@dimen/title_size" />
+
+            </LinearLayout>-->
+
+        <!--    <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="3dp"
+                android:background="@color/button" />-->
+
+            <ListView
+                android:id="@+id/lv_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qb_px_15"
+                android:divider="#00000000"
+                android:dividerHeight="0dp"></ListView>
+
+  <!--          <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_40"
+                android:background="@color/button"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:gravity="bottom"
+                    android:text="设置"
+                    android:textSize="@dimen/title_size" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="3dp"
+                android:background="@color/button" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_40"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:gravity="center"
+                    android:text="多语言"
+                    android:textSize="@dimen/title_size" />
+
+                <ImageView
+                    android:layout_width="@dimen/qb_px_12"
+                    android:layout_height="@dimen/qb_px_12"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@mipmap/sy_jt" />
+
+            </LinearLayout>-->
+
+            <Button
+                android:id="@+id/btn_exit_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qb_px_50"
+                android:background="@mipmap/button_w"
+                android:text="退出登录"
+                android:textColor="@color/red"
+                android:textSize="@dimen/title_size" />
+
+
+        </LinearLayout>
+    </com.foorich.auscashier.view.FlexibleScrollView>
+</LinearLayout>

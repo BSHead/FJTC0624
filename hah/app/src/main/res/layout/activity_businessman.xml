@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/li_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/layout_toolbar" />
+
+
+    <com.foorich.auscashier.view.FlexibleScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_40"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_26"
+                android:layout_marginTop="@dimen/qb_px_20"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="商户名称"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size" />
+
+                <com.foorich.auscashier.view.MClearEditText
+                    android:id="@+id/ed_merchants_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/qb_px_10"
+                    android:hint="请输入商家名称"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size"
+                    app:mClearEditText_showBottomLine="false" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_20"
+                android:layout_marginTop="@dimen/qb_px_15"
+                android:background="@color/button" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_40"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_26"
+                android:layout_marginTop="@dimen/qb_px_20"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="负责人"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size" />
+
+                <com.foorich.auscashier.view.MClearEditText
+                    android:id="@+id/ed_principal_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/qb_px_10"
+                    android:hint="输入负责人"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size"
+                    app:mClearEditText_showBottomLine="false" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_20"
+                android:layout_marginTop="@dimen/qb_px_15"
+                android:background="@color/button" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_40"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_26"
+                android:layout_marginTop="@dimen/qb_px_20"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="联系电话"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size" />
+
+                <TextView
+                    android:id="@+id/tv_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/qb_px_10"
+                    android:hint="请输入手机号"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_20"
+                android:layout_marginTop="@dimen/qb_px_15"
+                android:background="@color/button" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_40"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_26"
+                android:layout_marginTop="@dimen/qb_px_20"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="商户类型"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size" />
+
+
+                <TextView
+                    android:id="@+id/tv_merchants_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/qb_px_10"
+                    android:layout_weight="1"
+                    android:hint="请选择商户类型"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size" />
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/qb_px_12"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="0.1"
+                    android:src="@mipmap/bb_yf" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_20"
+                android:layout_marginTop="@dimen/qb_px_15"
+                android:background="@color/button" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_40"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_26"
+                android:layout_marginTop="@dimen/qb_px_20"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="所在地区"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size" />
+
+
+                <TextView
+                    android:id="@+id/tv_merchants_region"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/qb_px_10"
+                    android:layout_weight="1"
+                    android:hint="请选择商户营业地区"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size" />
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/qb_px_12"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="0.1"
+                    android:src="@mipmap/bb_yf" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_20"
+                android:layout_marginTop="@dimen/qb_px_15"
+                android:background="@color/button" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_40"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_26"
+                android:layout_marginTop="@dimen/qb_px_20"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="详细地址"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size" />
+
+                <com.foorich.auscashier.view.MClearEditText
+                    android:id="@+id/ed_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/qb_px_10"
+                    android:hint="街道、楼牌号等"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size"
+                    app:mClearEditText_showBottomLine="false" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/qb_px_26"
+                android:layout_marginRight="@dimen/qb_px_20"
+                android:layout_marginTop="@dimen/qb_px_15"
+                android:background="@color/button" />
+
+
+            <Button
+                android:id="@+id/btn_businessman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qb_px_30"
+                android:background="@mipmap/button1"
+                android:gravity="center"
+                android:text="下一步"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_size" />
+
+        </LinearLayout>
+    </com.foorich.auscashier.view.FlexibleScrollView>
+
+</LinearLayout>

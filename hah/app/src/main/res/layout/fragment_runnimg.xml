@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:srl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <com.foorich.auscashier.view.MyScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:text="流水"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/titleTop_size"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/qb_px_31"
+                    android:orientation="vertical">
+
+  <!--                  <com.foorich.auscashier.view.refres.PullRefreshLayout
+                        android:id="@+id/refresh_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        srl:refreshMode="both"
+                        tools:layout_editor_absoluteX="8dp"
+                        tools:layout_editor_absoluteY="0dp">-->
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rv_dealflow"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent" />
+                <!--    </com.foorich.auscashier.view.refres.PullRefreshLayout>
+-->
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+    </com.foorich.auscashier.view.MyScrollView>
+
+
+</LinearLayout>

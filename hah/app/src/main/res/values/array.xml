@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="second_fragment_name">
+        <item>科一</item>
+        <item>科二</item>
+        <item>科三</item>
+    </string-array>
+    <string-array name="second_fragment_id">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+
+</resources>

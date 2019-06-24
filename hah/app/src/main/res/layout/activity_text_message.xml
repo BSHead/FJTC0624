@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qb_px_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="验证短信"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titleTop_size"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/qb_px_26"
+        android:layout_marginRight="@dimen/qb_px_26"
+        android:layout_marginTop="@dimen/qb_px_58"
+        android:text="已发送验证码短信到您的原手机："
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_message_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/qb_px_26"
+        android:layout_marginRight="@dimen/qb_px_26"
+        android:layout_marginTop="@dimen/qb_px_22"
+        android:gravity="center_horizontal"
+        android:text="186****5500"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlebar_size" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/qb_px_26"
+        android:layout_marginRight="@dimen/qb_px_26"
+        android:layout_marginTop="@dimen/qb_px_49"
+        android:maxLength="6"
+        android:orientation="horizontal">
+
+
+        <com.foorich.auscashier.view.MClearEditText
+            android:id="@+id/ed_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLength="6"
+            android:hint="请输入短信验证码"
+            android:inputType="number"
+            app:mClearEditText_showBottomLine="false" />
+
+        <TextView
+            android:id="@+id/tv_residue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="@dimen/small_size" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="@dimen/qb_px_26"
+        android:layout_marginRight="@dimen/qb_px_26"
+        android:layout_marginTop="@dimen/qb_px_10"
+        android:background="@color/button" />
+
+    <Button
+        android:id="@+id/btn_message_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qb_px_60"
+        android:background="@mipmap/button1"
+        android:text="完成"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size" />
+
+
+</LinearLayout>

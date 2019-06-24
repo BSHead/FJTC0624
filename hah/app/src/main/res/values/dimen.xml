@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    //标题栏
+    <dimen name="title_content">20sp</dimen>
+
+    //按钮文字
+    <dimen name="btn_content">25sp</dimen>
+    //验证码、忘记密码
+    <dimen name="btn_verification_code">14sp</dimen>
+    //EditText里面的hint字体
+    <dimen name="edit_hint">16sp</dimen>
+    //每个页面的最上边标题文字
+    <dimen name="title_page">35sp</dimen>
+    //手机前的+86
+    <dimen name="ed_86">20sp</dimen>
+    //首页收款小字
+    <dimen name="home">12sp</dimen>
+
+
+    //页面顶部左标题栏字体
+    <dimen name="titleTop_size">30sp</dimen>
+
+    //扫一扫功能字体
+    <dimen name="function_size">23sp</dimen>
+
+    //流水、年月日、小字
+    <dimen name="small_size">13sp</dimen>
+
+    //页面功能标题字体
+    <dimen name="title_size">17sp</dimen>
+
+    //标题栏标题字体
+    <dimen name="titlebar_size">20sp</dimen>
+
+    //自定义弹框圆角弧度
+    <dimen name="dialog_radius">15dp</dimen>
+
+    //分享弹框
+    <dimen name="app_normal_margin">10dp</dimen>
+    <dimen name="app_plus_margin">12dp</dimen>
+    <dimen name="app_tiny_margin">4dp</dimen>
+
+    <dimen name="font_larger">16sp</dimen>
+    <dimen name="font_normal">14sp</dimen>
+    <dimen name="font_small">10sp</dimen>
+
+    <dimen name="bottom_dialog_top_icon">38dp</dimen>
+    <dimen name="bottom_dialog_left_icon">32dp</dimen>
+
+    <dimen name="picker_view_height">160dp</dimen>
+    <dimen name="date_unit_text_size">18sp</dimen>
+
+
+    <!--扇形显示-->
+    <dimen name="statistics_in_circle_txt">15dp</dimen>
+    <dimen name="statistics_circle_radius">7dp</dimen>
+
+</resources>

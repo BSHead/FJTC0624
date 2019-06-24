@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/layout_toolbar" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_130"
+        android:layout_marginTop="@dimen/qb_px_40">
+
+        <ImageView
+            android:layout_width="@dimen/qb_px_90"
+            android:layout_height="@dimen/qb_px_90"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/about_v"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_content" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/Lv_about"
+        android:layout_marginTop="@dimen/qb_px_58"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+
+</LinearLayout>
